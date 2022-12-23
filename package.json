@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/rohinikhanderay/Nwe-repo/issues"
   },
-  "homepage": "https://github.com/rohinikhanderay/Nwe-repo#readme"
+  "homepage": "https://github.com/rohinikhanderay/Nwe-repo#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "run": "^1.4.0"
+  }
 }
