@@ -6,8 +6,7 @@
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
     "start": "node backend/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node dist/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,10 +17,5 @@
   "bugs": {
     "url": "https://github.com/rohinikhanderay/Nwe-repo/issues"
   },
-  "homepage": "https://github.com/rohinikhanderay/Nwe-repo#readme",
-  "dependencies": {
-    "express": "^4.18.2",
-    "react-icons": "^4.7.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/rohinikhanderay/Nwe-repo#readme"
 }
