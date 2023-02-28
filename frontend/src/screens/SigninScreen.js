@@ -52,6 +52,7 @@ export default function SigninScreen() {
           <Form.Label>Email</Form.Label>
           <Form.Control
             type="email"
+            value="admin@petcart.com"
             required
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -60,6 +61,7 @@ export default function SigninScreen() {
           <Form.Label>Password</Form.Label>
           <Form.Control
             type="password"
+            value="1234"
             required
             onChange={(e) => setPassword(e.target.value)}
           />
