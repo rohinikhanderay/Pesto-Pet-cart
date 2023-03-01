@@ -15,7 +15,7 @@ export default function SigninScreen() {
   const redirectInUrl = new URLSearchParams(search).get('redirect');
   const redirect = redirectInUrl ? redirectInUrl : '/';
 
-  const [email, setEmail] = useState('pestoproject@.com');
+  const [email, setEmail] = useState('pestoproject@petcart.com');
   const [password, setPassword] = useState('123456');
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -52,7 +52,7 @@ export default function SigninScreen() {
           <Form.Label>Email</Form.Label>
           <Form.Control
             type="email"
-            value="pestoproject@.com"
+            value="pestoproject@petcart.com"
             required
             onChange={(e) => setEmail(e.target.value)}
           />
