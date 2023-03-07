@@ -3,7 +3,8 @@
 ![amazona](/frontend/public/images/pet.png)
 
 Welcome to my React app Pet Cart which is fully-functional e-commerce website. It is completely MERN stack web app (MongoDB, ExpressJS, React and Node.JS).
- demo https://petcart.onrender.com
+ 
+For the demo click on https://petcart.onrender.com
 
 ## Run Locally
 
